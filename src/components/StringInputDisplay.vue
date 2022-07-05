@@ -2,6 +2,7 @@
   <div class="wrapper">
     <h1>Daily schedule planner</h1>
     <div class="input-fields">
+      <p>String input (see in component's data)</p>
       <p v-for="row in inputRows">{{ row }}</p>
     </div>
 
@@ -138,6 +139,7 @@ h1 {
 }
 
 .input-fields {
+  display: block;
   background: #f2f2f2;
   padding: 6px 12px;
   margin: 24px 0 0 0
